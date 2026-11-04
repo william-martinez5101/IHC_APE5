@@ -1,0 +1,5 @@
+https://github.com/william-martinez5101/IHC_APE5
+
+Integrantes: William Martínez, Emilio Abril, Jonathan Gamboa, Pablo Lozada y Manuel Cusme.
+
+El repositorio contiene la Fase 1 del APE 5 en la carpeta APE5_FASE1: el diagnóstico del boceto de escritorio, la ficha de aplicación docs/proyecto.md, la interfaz HTML5 semántica en src/index.html, el diseño CSS Mobile-First en src/estilos.css y los estados de reserva y cancelación en src/reserva.js. Incluye evidencias de móvil y escritorio, resultados técnicos y el informe en Word y PDF. La hipótesis para la Fase 2 está documentada en docs/fase2.md. Las rutas indicadas son relativas a APE5_FASE1/.

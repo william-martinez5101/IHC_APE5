@@ -1,0 +1,25 @@
+APE 5 - Fase 1: Del boceto a la interfaz web adaptable (HTML5, CSS Mobile-First e Interacción)
+
+Construcción de la Fase 1 de la Guía Práctica APE 5 (180 min): diagnóstico de desborde en móvil, ficha de aplicación al proyecto del grupo, estructura HTML5 semántica, diseño CSS Mobile-First (punto de corte en 48rem / 768 px) e implementación de estados de acción y cancelación accesibles por teclado.En esta Fase 1 del APE 5, cada grupo debe transformar una pantalla de su proyecto (o el boceto base de escritorio) en una interfaz web adaptable siguiendo los pasos trabajados en clase:
+
+1. Diagnóstico del Boceto A (360 px):
+   - Abrir el boceto inicial a 360 px de ancho e identificar qué información o panel de estado se pierde por el desplazamiento horizontal.
+
+2. Ficha de aplicación al proyecto (docs/proyecto.md):
+   - Completar la secuencia: Actor → Tarea → Dato decisivo → Acción principal → Estado final, junto con una regla de negocio y su criterio de aceptación medible.
+
+3. Estructura HTML5 semántica (src/index.html):
+   - Implementar la jerarquía del contenido con etiquetas semánticas (<header>, <main>, <section>, <article>, <dl>), controles nativos <button> navegables con Tab y una región <p role="status"> para comunicar el cambio de estado.
+
+4. Diseño CSS Mobile-First (src/estilos.css):
+   - Empezar con una sola columna base para pantallas móviles y activar dos columnas a partir de @media (min-width: 48rem) (768 px), conservando intacto el orden de lectura del HTML.
+
+5. Estados de interacción (src/reserva.js o controlador equivalente):
+   - Conectar los tres momentos de la tarea (Disponible → Confirmada → Cancelada), bloqueando la acción duplicada (disabled) al confirmar y trasladando el foco automáticamente al botón disponible.
+
+¿QUÉ DEBE ENTREGAR CADA GRUPO AL FINALIZAR LA FASE 1?
+- En «Texto en línea»: Enlace al repositorio de GitHub del grupo con los commits de la Fase 1 (código HTML/CSS/JS funcional y ficha docs/proyecto.md).
+- En «Archivos enviados»: Un documento PDF/Word corto (o archivo comprimido) que contenga:
+  1. La ficha de aplicación del proyecto (actor, tarea, requisito y decisión HCI justificada).
+  2. Dos capturas preliminares del cambio de distribución (en móvil 360 px y en escritorio 768/1366 px).
+  3. Una hipótesis o problema detectado en la revisión entre pares que se validará en la Fase 2.
