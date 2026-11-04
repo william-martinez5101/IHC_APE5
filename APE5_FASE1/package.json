@@ -1,0 +1,19 @@
+{
+  "name": "ihc-ape5-fase1",
+  "version": "1.0.0",
+  "private": true,
+  "description": "APE 5 Fase 1: interfaz adaptable Aula Abierta",
+  "scripts": {
+    "test": "node pruebas/verificar.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  },
+  "contributors": [
+    "William Martínez",
+    "Emilio Abril",
+    "Jonathan Gamboa",
+    "Pablo Lozada",
+    "Manuel Cusme"
+  ]
+}
