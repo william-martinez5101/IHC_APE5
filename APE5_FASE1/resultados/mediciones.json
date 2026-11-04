@@ -1,0 +1,194 @@
+{
+  "fecha": "2026-11-04T16:33:16.170Z",
+  "navegador": "Chromium 153.0.8010.0",
+  "metodo": "Playwright, documento local file://, deviceScaleFactor 1, capturas PNG sin escalado. Pruebas técnicas; sin participantes humanos.",
+  "filas": [
+    {
+      "version": "A",
+      "ancho": 360,
+      "alto": 800,
+      "documento": 960,
+      "columnas": 2,
+      "desborde": true
+    },
+    {
+      "version": "B",
+      "ancho": 320,
+      "alto": 720,
+      "documento": 320,
+      "columnas": 1,
+      "desborde": false
+    },
+    {
+      "version": "B",
+      "ancho": 360,
+      "alto": 800,
+      "documento": 360,
+      "columnas": 1,
+      "desborde": false
+    },
+    {
+      "version": "B",
+      "ancho": 767,
+      "alto": 900,
+      "documento": 767,
+      "columnas": 1,
+      "desborde": false
+    },
+    {
+      "version": "B",
+      "ancho": 768,
+      "alto": 1024,
+      "documento": 768,
+      "columnas": 2,
+      "desborde": false
+    },
+    {
+      "version": "B",
+      "ancho": 1366,
+      "alto": 900,
+      "documento": 1366,
+      "columnas": 2,
+      "desborde": false
+    }
+  ],
+  "controles": [
+    {
+      "prueba": "Sin desborde a 320px",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Columnas a 320px",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Tab alcanza Reservar a 320px",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Confirmación y foco a 320px",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Cancelación y foco a 320px",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Espacio permite volver a reservar a 320px",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Sin desborde a 360px",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Columnas a 360px",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Tab alcanza Reservar a 360px",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Confirmación y foco a 360px",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Cancelación y foco a 360px",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Espacio permite volver a reservar a 360px",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Sin desborde a 767px",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Columnas a 767px",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Tab alcanza Reservar a 767px",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Confirmación y foco a 767px",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Cancelación y foco a 767px",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Espacio permite volver a reservar a 767px",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Sin desborde a 768px",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Columnas a 768px",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Tab alcanza Reservar a 768px",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Confirmación y foco a 768px",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Cancelación y foco a 768px",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Espacio permite volver a reservar a 768px",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Sin desborde a 1366px",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Columnas a 1366px",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Tab alcanza Reservar a 1366px",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Confirmación y foco a 1366px",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Cancelación y foco a 1366px",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Espacio permite volver a reservar a 1366px",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Redimensionar conserva reserva y foco",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Redimensionar a escritorio conserva estado",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Recargar restablece el estado local",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "No hay errores de JavaScript",
+      "resultado": "Cumple"
+    }
+  ],
+  "errores": []
+}
