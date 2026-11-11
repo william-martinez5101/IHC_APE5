@@ -1,0 +1,71 @@
+{
+  "tipo": "verificacion_estatica_ejecutada",
+  "motor": "v24.22.1",
+  "comprobaciones": [
+    {
+      "prueba": "Idioma español",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Viewport adaptable",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Estructura semántica",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Estado anunciado por su rol",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Controles nativos de reserva y cancelación",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Cancelar inicia oculto",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Carga diferida de interaccion.js",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Sin tabindex positivo",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Punto de corte 48rem",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Dos columnas proporcionales",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Botones de al menos 44px",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Foco visible definido",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Sin reordenamiento CSS",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "No se encubre el desborde",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Foco explícito tras confirmar y cancelar",
+      "resultado": "Cumple"
+    },
+    {
+      "prueba": "Guarda y disabled contra repetición",
+      "resultado": "Cumple"
+    }
+  ],
+  "alcance": "Comprueba el código fuente. No mide geometría en navegador ni comportamiento de personas."
+}

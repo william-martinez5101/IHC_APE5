@@ -1,0 +1,15 @@
+{
+  "name": "ihc-ape5-grupo6-fase2",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Aula Abierta Grupo 6: validación de interfaz adaptable",
+  "scripts": {
+    "test": "node pruebas/verificar.mjs",
+    "test:estado": "node pruebas/verificar-estado.mjs",
+    "test:estructura": "node pruebas/verificar-estructura.mjs",
+    "test:ejercicio": "node pruebas/analizar-escenarios.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}
