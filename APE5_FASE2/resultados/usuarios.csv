@@ -1,0 +1,6 @@
+codigo,viewport,tiempo_s,errores,ayudas,completa,reconoce_confirmacion,dificultad,origen
+E01,360 × 800,28,0,0,True,True,Localiza el laboratorio y distingue la confirmación antes de cancelar.,datos_de_ejemplo_academico
+E02,360 × 800,35,1,1,True,False,Interpreta inicialmente Lugar reservado como una acción disponible; requiere una orientación para reconocer el resumen.,datos_de_ejemplo_academico
+E03,360 × 800,22,0,0,True,True,Identifica el mensaje y completa la cancelación sin desorientación.,datos_de_ejemplo_academico
+E04,360 × 800,25,0,0,True,True,La continuidad entre los controles permite finalizar el recorrido.,datos_de_ejemplo_academico
+E05,360 × 800,30,0,0,True,True,Lee nuevamente el horario y reconoce el estado antes de cancelar.,datos_de_ejemplo_academico

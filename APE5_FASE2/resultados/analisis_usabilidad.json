@@ -1,0 +1,17 @@
+{
+  "titulo": "Pruebas Realizadas",
+  "origen": "datos_de_ejemplo_academico",
+  "alcance": "Análisis de cinco escenarios generados. No acredita sesiones con personas ni valida empíricamente H1.",
+  "cantidad": 5,
+  "tiempo_total_s": 140,
+  "promedio_s": 28,
+  "mediana_s": 28,
+  "minimo_s": 22,
+  "maximo_s": 35,
+  "completan": 5,
+  "reconocen_sin_ayuda": 4,
+  "porcentaje_sin_ayuda": 80,
+  "errores_totales": 1,
+  "ayudas_totales": 1,
+  "criterio_del_ejercicio": "Se alcanza 4 de 5 en el conjunto de ejemplo."
+}

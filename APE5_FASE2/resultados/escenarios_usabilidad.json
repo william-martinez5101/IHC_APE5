@@ -1,0 +1,62 @@
+{
+  "titulo": "Pruebas Realizadas",
+  "naturaleza": "Ejercicio académico con datos generados; no corresponde a observaciones de personas reales.",
+  "consigna": "Necesitas asistir al taller del jueves. Averigua dónde se dicta, reserva un lugar y después cancélalo.",
+  "registros": [
+    {
+      "codigo": "E01",
+      "viewport": "360 × 800",
+      "tiempo_s": 28,
+      "errores": 0,
+      "ayudas": 0,
+      "completa": true,
+      "reconoce_confirmacion": true,
+      "dificultad": "Localiza el laboratorio y distingue la confirmación antes de cancelar.",
+      "origen": "datos_de_ejemplo_academico"
+    },
+    {
+      "codigo": "E02",
+      "viewport": "360 × 800",
+      "tiempo_s": 35,
+      "errores": 1,
+      "ayudas": 1,
+      "completa": true,
+      "reconoce_confirmacion": false,
+      "dificultad": "Interpreta inicialmente Lugar reservado como una acción disponible; requiere una orientación para reconocer el resumen.",
+      "origen": "datos_de_ejemplo_academico"
+    },
+    {
+      "codigo": "E03",
+      "viewport": "360 × 800",
+      "tiempo_s": 22,
+      "errores": 0,
+      "ayudas": 0,
+      "completa": true,
+      "reconoce_confirmacion": true,
+      "dificultad": "Identifica el mensaje y completa la cancelación sin desorientación.",
+      "origen": "datos_de_ejemplo_academico"
+    },
+    {
+      "codigo": "E04",
+      "viewport": "360 × 800",
+      "tiempo_s": 25,
+      "errores": 0,
+      "ayudas": 0,
+      "completa": true,
+      "reconoce_confirmacion": true,
+      "dificultad": "La continuidad entre los controles permite finalizar el recorrido.",
+      "origen": "datos_de_ejemplo_academico"
+    },
+    {
+      "codigo": "E05",
+      "viewport": "360 × 800",
+      "tiempo_s": 30,
+      "errores": 0,
+      "ayudas": 0,
+      "completa": true,
+      "reconoce_confirmacion": true,
+      "dificultad": "Lee nuevamente el horario y reconoce el estado antes de cancelar.",
+      "origen": "datos_de_ejemplo_academico"
+    }
+  ]
+}
