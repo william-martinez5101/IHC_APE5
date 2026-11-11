@@ -1,0 +1,28 @@
+import assert from 'node:assert/strict';
+import { readFile, writeFile } from 'node:fs/promises';
+const root=new URL('../',import.meta.url);
+const html=await readFile(new URL('src/index.html',root),'utf8');
+const css=await readFile(new URL('src/estilos.css',root),'utf8');
+const js=await readFile(new URL('src/interaccion.js',root),'utf8');
+const checks=[];
+const check=(name,ok)=>{assert.ok(ok,name);checks.push({prueba:name,resultado:'Cumple'});};
+check('Idioma español',/<html\s+lang="es"/.test(html));
+check('Viewport adaptable',/name="viewport"[^>]*width=device-width/.test(html));
+check('Estructura semántica', ['header','main','section','article','dl','button'].every(t=>html.includes('<'+t)));
+check('Estado anunciado por su rol',/id="estado"[^>]*role="status"[^>]*aria-atomic="true"/.test(html));
+check('Controles nativos de reserva y cancelación',/<button id="reservar"/.test(html)&&/<button id="cancelar"/.test(html));
+check('Cancelar inicia oculto',/<button id="cancelar"[^>]*hidden/.test(html));
+check('Carga diferida de interaccion.js',/src="interaccion.js"[^>]*defer/.test(html));
+check('Sin tabindex positivo',!(/tabindex="[1-9]/.test(html)));
+check('Punto de corte 48rem',/@media\s*\(min-width:\s*48rem\)/.test(css));
+check('Dos columnas proporcionales',/grid-template-columns:\s*3fr 2fr/.test(css));
+check('Botones de al menos 44px',/min-height:\s*(4[4-9]|[5-9][0-9]|[1-9][0-9]{2,})px/.test(css));
+check('Foco visible definido',/:focus-visible\s*\{[^}]*outline:/.test(css));
+check('Sin reordenamiento CSS',!(/\border\s*:/.test(css)));
+check('No se encubre el desborde',!(/overflow-x\s*:\s*hidden/.test(css)));
+check('Foco explícito tras confirmar y cancelar',js.includes('cancelar.focus()')&&js.includes('reservar.focus()'));
+check('Guarda y disabled contra repetición',js.includes('if (reservaActiva) return')&&js.includes('reservar.disabled = true'));
+const output={tipo:'verificacion_estatica_ejecutada',motor:process.version,comprobaciones:checks,
+  alcance:'Comprueba el código fuente. No mide geometría en navegador ni comportamiento de personas.'};
+await writeFile(new URL('resultados/revision_estructura.json',root),JSON.stringify(output,null,2)+'\n');
+console.log(checks.length+' comprobaciones estáticas correctas.');
