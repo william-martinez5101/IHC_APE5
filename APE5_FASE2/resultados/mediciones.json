@@ -1,0 +1,179 @@
+{
+  "titulo": "Pruebas Realizadas",
+  "fuentes": {
+    "registro_fase1": "Mediciones conservadas en referencia_fase1.json, Chromium 153.0.8010.0, 2026-11-04.",
+    "matriz_cierre": "Valores de ensayo derivados de CSS. No son nuevas mediciones de scrollWidth en navegador."
+  },
+  "mediciones_registradas_fase1": [
+    {
+      "version": "A",
+      "ancho": 360,
+      "alto": 800,
+      "documento": 960,
+      "columnas": 2,
+      "desborde": true
+    },
+    {
+      "version": "B",
+      "ancho": 320,
+      "alto": 720,
+      "documento": 320,
+      "columnas": 1,
+      "desborde": false
+    },
+    {
+      "version": "B",
+      "ancho": 360,
+      "alto": 800,
+      "documento": 360,
+      "columnas": 1,
+      "desborde": false
+    },
+    {
+      "version": "B",
+      "ancho": 767,
+      "alto": 900,
+      "documento": 767,
+      "columnas": 1,
+      "desborde": false
+    },
+    {
+      "version": "B",
+      "ancho": 768,
+      "alto": 1024,
+      "documento": 768,
+      "columnas": 2,
+      "desborde": false
+    },
+    {
+      "version": "B",
+      "ancho": 1366,
+      "alto": 900,
+      "documento": 1366,
+      "columnas": 2,
+      "desborde": false
+    }
+  ],
+  "matriz_de_ensayo_cierre": [
+    {
+      "viewport_css": "320 × 720",
+      "estado": "disponible",
+      "ancho_documento_esperado_px": 320,
+      "ancho_viewport_px": 320,
+      "desborde_esperado_px": 0,
+      "columnas": 1,
+      "ancho_contenedor_px": 280,
+      "origen": "modelo_geometrico_css"
+    },
+    {
+      "viewport_css": "320 × 720",
+      "estado": "confirmada",
+      "ancho_documento_esperado_px": 320,
+      "ancho_viewport_px": 320,
+      "desborde_esperado_px": 0,
+      "columnas": 1,
+      "ancho_contenedor_px": 280,
+      "origen": "modelo_geometrico_css"
+    },
+    {
+      "viewport_css": "320 × 720",
+      "estado": "cancelada",
+      "ancho_documento_esperado_px": 320,
+      "ancho_viewport_px": 320,
+      "desborde_esperado_px": 0,
+      "columnas": 1,
+      "ancho_contenedor_px": 280,
+      "origen": "modelo_geometrico_css"
+    },
+    {
+      "viewport_css": "360 × 800",
+      "estado": "disponible",
+      "ancho_documento_esperado_px": 360,
+      "ancho_viewport_px": 360,
+      "desborde_esperado_px": 0,
+      "columnas": 1,
+      "ancho_contenedor_px": 320,
+      "origen": "modelo_geometrico_css"
+    },
+    {
+      "viewport_css": "360 × 800",
+      "estado": "confirmada",
+      "ancho_documento_esperado_px": 360,
+      "ancho_viewport_px": 360,
+      "desborde_esperado_px": 0,
+      "columnas": 1,
+      "ancho_contenedor_px": 320,
+      "origen": "modelo_geometrico_css"
+    },
+    {
+      "viewport_css": "360 × 800",
+      "estado": "cancelada",
+      "ancho_documento_esperado_px": 360,
+      "ancho_viewport_px": 360,
+      "desborde_esperado_px": 0,
+      "columnas": 1,
+      "ancho_contenedor_px": 320,
+      "origen": "modelo_geometrico_css"
+    },
+    {
+      "viewport_css": "768 × 1024",
+      "estado": "disponible",
+      "ancho_documento_esperado_px": 768,
+      "ancho_viewport_px": 768,
+      "desborde_esperado_px": 0,
+      "columnas": 2,
+      "ancho_contenedor_px": 728,
+      "origen": "modelo_geometrico_css"
+    },
+    {
+      "viewport_css": "768 × 1024",
+      "estado": "confirmada",
+      "ancho_documento_esperado_px": 768,
+      "ancho_viewport_px": 768,
+      "desborde_esperado_px": 0,
+      "columnas": 2,
+      "ancho_contenedor_px": 728,
+      "origen": "modelo_geometrico_css"
+    },
+    {
+      "viewport_css": "768 × 1024",
+      "estado": "cancelada",
+      "ancho_documento_esperado_px": 768,
+      "ancho_viewport_px": 768,
+      "desborde_esperado_px": 0,
+      "columnas": 2,
+      "ancho_contenedor_px": 728,
+      "origen": "modelo_geometrico_css"
+    },
+    {
+      "viewport_css": "1366 × 768",
+      "estado": "disponible",
+      "ancho_documento_esperado_px": 1366,
+      "ancho_viewport_px": 1366,
+      "desborde_esperado_px": 0,
+      "columnas": 2,
+      "ancho_contenedor_px": 1120,
+      "origen": "modelo_geometrico_css"
+    },
+    {
+      "viewport_css": "1366 × 768",
+      "estado": "confirmada",
+      "ancho_documento_esperado_px": 1366,
+      "ancho_viewport_px": 1366,
+      "desborde_esperado_px": 0,
+      "columnas": 2,
+      "ancho_contenedor_px": 1120,
+      "origen": "modelo_geometrico_css"
+    },
+    {
+      "viewport_css": "1366 × 768",
+      "estado": "cancelada",
+      "ancho_documento_esperado_px": 1366,
+      "ancho_viewport_px": 1366,
+      "desborde_esperado_px": 0,
+      "columnas": 2,
+      "ancho_contenedor_px": 1120,
+      "origen": "modelo_geometrico_css"
+    }
+  ]
+}
