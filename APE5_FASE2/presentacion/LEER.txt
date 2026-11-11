@@ -1,0 +1,1 @@
+Presentación HTML de 10 diapositivas. Abrir defensa_grupo6.html, usar flechas o botones para navegar y N para notas. Integra Fase 1 y Fase 2 y conserva el origen de cada evidencia. Los datos de usabilidad son ejemplos académicos identificados en pantalla y en las notas.

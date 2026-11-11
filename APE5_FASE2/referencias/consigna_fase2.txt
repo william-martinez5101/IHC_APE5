@@ -1,0 +1,30 @@
+APE 5 - Fase 2: Validación técnica, pruebas con usuarios y defensa del prototipo (Informe final y GitHub)
+
+Entrega final y defensa de la Guía Práctica APE 5 (120 min): validación responsiva en cuatro resoluciones (320, 360, 768 y 1366 px), registro de pruebas de observación con compañeros, defensa cruzada ante el grupo evaluador QA/UX (2 preguntas técnicas y 1 objeción), integración colaborativa en GitHub (4 Pull Requests) e Informe final UTA.
+En esta Fase 2 de cierre del APE 5, cada grupo debe validar técnicamente su interfaz, realizar pruebas de interacción con participantes reales y defender sus decisiones de diseño:
+
+1. Pruebas técnicas en navegador (resultados/pruebas.md y evidencias/):
+   - Probar la versión integrada en DevTools al 100 % de zoom en 4 viewports: 320 × 720 px, 360 × 800 px, 768 × 1024 px y 1366 × 768 px.
+   - Medir y registrar document.documentElement.scrollWidth comprobando ausencia total de desborde horizontal (scrollWidth <= innerWidth).
+   - Adjuntar las capturas correspondientes en la carpeta evidencias/.
+
+2. Observación con usuarios en aula (resultados/checklist.md):
+   - Aplicar una consigna neutral a un compañero de otro grupo (sin indicar qué botones presionar).
+   - Registrar en la tabla de observación: tiempo de tarea (segundos), errores de navegación, solicitudes de ayuda y dificultades detectadas.
+
+3. Dinámica de defensa cruzada QA/UX (docs/preguntas.md):
+   - Responder y sustentar ante el grupo retador asignado (G3) apoyándose en el código fuente, mediciones y principios HCI:
+     * Pregunta técnica 1 (Punto de corte en CSS y preservación del orden por teclado con Tab).
+     * Pregunta técnica 2 (Prevención de envíos duplicados con disabled y gestión del foco tras confirmar/cancelar).
+     * Objeción de diseño (Diferencia entre ajuste geométrico y comprensión real del usuario).
+   - Registrar el acta completa de la defensa en docs/preguntas.md.
+
+4. Cierre colaborativo en GitHub y conclusiones:
+   - Consolidar los 4 Issues cerrados mediante sus 4 Pull Requests con revisión cruzada entre integrantes.
+   - Redactar las conclusiones finales en docs/conclusiones.md (requisito, decisión, dato observado, limitación y siguiente iteración).
+
+¿QUÉ DEBE ENTREGAR CADA GRUPO EN ESTA ASIGNACIÓN?
+1. En «Texto en línea»:
+   - Enlace al repositorio público de GitHub con las 4 ramas integradas en main, 4 Issues cerrados y 4 PRs revisados.
+2. En «Archivos enviados»:
+   - Informe final de la práctica en formato UTA oficial (PDF) debidamente firmado y completado con capturas, mediciones y acta de defensa.
