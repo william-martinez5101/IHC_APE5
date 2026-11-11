@@ -1,0 +1,6 @@
+Grupo 6. Aula Abierta. APE 5 Diseño de Interfaces Web Adaptables.
+Repositorio: https://github.com/william-martinez5101/IHC_APE5
+
+La estructura del proyecto comprende APE5_FASE1 y APE5_FASE2. El cierre incluye la interfaz HTML5/CSS/JavaScript, pruebas de lógica y estructura, matriz geométrica, ejercicio de usabilidad, defensa QA/UX, presentación e informe integrado Word/PDF. El desarrollo se explica en 2.7 Resultados Obtenidos, con referencias IEEE de la guía docente.
+
+Responsables: William Martínez, Emilio Abril, Pablo Lozada, Manuel Cusme y Jonathan Gamboa. El origen de las pruebas y los datos de ejemplo se identifica en los resultados.
